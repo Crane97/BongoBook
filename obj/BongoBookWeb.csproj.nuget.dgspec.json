@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jorge.Ruiz\\Desktop\\BongoBook\\BongoBookWeb\\BongoBookWeb.csproj": {}
+    "C:\\Users\\Jorge.Ruiz\\Desktop\\dotnetTutorial\\BongoBook\\BongoBookWeb\\BongoBookWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jorge.Ruiz\\Desktop\\BongoBook\\BongoBookWeb\\BongoBookWeb.csproj": {
+    "C:\\Users\\Jorge.Ruiz\\Desktop\\dotnetTutorial\\BongoBook\\BongoBookWeb\\BongoBookWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jorge.Ruiz\\Desktop\\BongoBook\\BongoBookWeb\\BongoBookWeb.csproj",
+        "projectUniqueName": "C:\\Users\\Jorge.Ruiz\\Desktop\\dotnetTutorial\\BongoBook\\BongoBookWeb\\BongoBookWeb.csproj",
         "projectName": "BongoBookWeb",
-        "projectPath": "C:\\Users\\Jorge.Ruiz\\Desktop\\BongoBook\\BongoBookWeb\\BongoBookWeb.csproj",
+        "projectPath": "C:\\Users\\Jorge.Ruiz\\Desktop\\dotnetTutorial\\BongoBook\\BongoBookWeb\\BongoBookWeb.csproj",
         "packagesPath": "C:\\Users\\Jorge.Ruiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jorge.Ruiz\\Desktop\\BongoBook\\BongoBookWeb\\obj\\",
+        "outputPath": "C:\\Users\\Jorge.Ruiz\\Desktop\\dotnetTutorial\\BongoBook\\BongoBookWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,6 +48,24 @@
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.11, )"
             }
           },
           "imports": [
